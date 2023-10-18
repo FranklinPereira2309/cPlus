@@ -4,10 +4,10 @@ using namespace std;
 
 struct Jogo {
 
-        string nome;
-        float preco;
-        int horas;
-        float custo;
+    string nome;
+    float preco;
+    int horas;
+    float custo;
 };
 
 Jogo adquirir(const string& titulo, float valor);
